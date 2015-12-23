@@ -1,5 +1,5 @@
 wordpress:
-  image: wordpress
+  image: gravityrail/wordpress
   volumes:
     - src:/var/www/html
   links:
